@@ -1,0 +1,83 @@
+.my-draft-editor {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.editor-toolbar {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.editor-toolbar button {
+    background: none;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+
+.editor-toolbar button:hover {
+    background-color: #e6f7ff;
+}
+
+.editor-toolbar button.active {
+    background-color: #1890ff;
+    color: white;
+}
+
+.editor-toolbar .separator {
+    color: #ccc;
+    margin: 0 4px;
+}
+
+.editor-content {
+    padding: 16px;
+    min-height: 200px;
+    /* 设置一个最小高度 */
+    background-color: white;
+}
+
+/* 自定义编辑器中某些元素的样式 */
+.editor-content .public-DraftStyleDefault-block {
+    margin: 1em 0;
+}
+
+.editor-content .public-DraftStyleDefault-header-one {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.67em 0;
+}
+
+.editor-content .public-DraftStyleDefault-header-two {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.83em 0;
+}
+
+.editor-content .public-DraftStyleDefault-unordered-list-item,
+.editor-content .public-DraftStyleDefault-ordered-list-item {
+    margin-left: 1.5em;
+}
+
+.editor-content .public-DraftStyleDefault-blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1em;
+    color: #666;
+}
+
+.editor-content .public-DraftStyleDefault-code {
+    background-color: #f5f5f5;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    border-radius: 3px;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}

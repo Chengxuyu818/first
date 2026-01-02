@@ -1,0 +1,37 @@
+/*
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2025-11-21 23:28:27
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2025-11-21 23:28:48
+ * @FilePath: \react_11_16\jike\src\pages\Login\index.css
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+ .login {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     background: center/cover url('~@/assets/login.png');
+
+     .login-logo {
+         width: 200px;
+         height: 60px;
+         display: block;
+         margin: 0 auto 20px;
+     }
+
+     .login-container {
+         width: 440px;
+         height: 360px;
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%, -50%);
+         box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+     }
+
+     .login-checkbox-label {
+         color: #1890ff;
+     }
+ }

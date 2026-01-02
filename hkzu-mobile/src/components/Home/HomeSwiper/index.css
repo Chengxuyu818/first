@@ -1,0 +1,19 @@
+.content {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #333;
+}
+
+.swiper-container {
+    padding: 0 16px;
+}
+
+.swiper-title {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
